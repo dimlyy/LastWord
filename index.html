@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For u</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Gửi đến em.</strong>
+                        <p>Xin lỗi em vì vài tuần qua anh đã hành động như vậy. Đó cứ như thể không phải là anh nữa rồi. Lúc đó anh thật sự rất stress vì anh sợ mất em. Nhưng điều gì
+                           đến cũng sẽ đến thôi. Anh sẽ không làm những hành động như vậy nữa đâu.</p>
+                        <p>Xin lỗi em vì đã làm mệt mỏi thêm.</p>   
+                        <p>Chúc em hạnh phúc và có thật nhiều niềm vui nhéeee.</p>
+                        <p>Anh đã rất vui khi có em bên cạnh.</p>
+                        <p class="wish">Wish u all the best bae.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
