@@ -123,14 +123,5 @@
     font-size: 8px;
     color: #da5582;
   }
-  @media (max-width: 740px){
-    .wish{
-    text-align: center;
-    font-size: 8px;
-    color: #da5582;
-  }
-  .envelope > .letter > .text{
-    font-size: 6px;
-  }
-  }
+
   
