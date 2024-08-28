@@ -73,9 +73,7 @@
     color: var(--txt-color);
     text-align: left;
     font-size: 6px;
-    line-height: 7x;
-    margin: 0 0 !important;
-    display: block;
+    line-height: 7px;
   }
   .heart {
     position: absolute;
