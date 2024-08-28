@@ -73,7 +73,7 @@
     color: var(--txt-color);
     text-align: left;
     font-size: 6px;
-    line-height: 7px;
+    line-height: 7x;
     margin: 0 0 !important;
     display: block;
   }
@@ -118,12 +118,19 @@
     transform: rotate(90deg);
     transition-delay: 0.4s;
   }
-  
+  .wish{
+    text-align: center;
+    font-size: 8px;
+    color: #da5582;
+  }
   @media (max-width: 740px){
     .wish{
     text-align: center;
     font-size: 8px;
     color: #da5582;
+  }
+  .envelope > .letter > .text{
+    font-size: 6px;
   }
   }
   
