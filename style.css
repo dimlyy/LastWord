@@ -24,6 +24,11 @@
     display: grid;
     place-items: center;
   }
+  @media (min-width: 740px){
+    .container{
+      transform: scale(1.5);
+    }
+  }
   .container > .envelope-wrapper {
     background: var(--bg-envelope-color);
     box-shadow: 0 0 40px var(--shadow-color);
