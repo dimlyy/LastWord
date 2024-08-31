@@ -126,5 +126,10 @@
     font-size: 8px;
     color: #da5582;
   }
+  @media (max-width:740px){
+    .wish{
+      font-size: 7px;
+    }
+  }
 
   
